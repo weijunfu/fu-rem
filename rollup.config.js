@@ -11,6 +11,12 @@ export default {
     {
       file: 'dist/index.esm.js',
       format: 'esm',
+    },
+    {
+      file: 'dist/index.umd.js',
+      format: 'umd',
+      name: 'setRem', // 全局变量名，浏览器中用 window.setRem
+      exports: 'default'
     }
   ],
   plugins: [resolve(), commonjs()]

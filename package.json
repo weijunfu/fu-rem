@@ -1,6 +1,6 @@
 {
   "name": "fu-rem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "动态设置根字体大小的工具",
   "main": "src/index.js",
   "module": "src/index.js",
